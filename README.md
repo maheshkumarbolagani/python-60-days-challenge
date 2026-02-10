@@ -67,4 +67,79 @@ Otherwise, it prints REJECTED.
 - No loops, lists, regex, or external libraries
 <img width="1786" height="1042" alt="image" src="https://github.com/user-attachments/assets/355e1cab-b39e-4cc5-97b4-334ae0a13c92" />
 
+# Student Performance Analyzer
+## Description
+
+This program analyzes student marks using basic Python concepts.
+Marks are stored in a list, updated using a personalized rule, and then classified into performance categories.
+
+## Concepts Used
+
+- for loop
+
+- list
+
+- string
+
+-conditional statements
+
+## Classification Rules
+
+- 90–100 → Excellent
+
+- 75–89 → Very Good
+
+- 60–74 → Good
+
+- 40–59 → Average
+
+- 0–39 → Fail
+
+- < 0 or > 100 → Invalid
+
+## Personalized Logic
+
+Personalization is based on the last digit of the registration number:
+
+If the digit is even, all marks are decreased by 1
+
+If the digit is odd, all marks are increased by 1
+
+This personalization changes the final classification.
+
+## Output
+
+Displays category for each mark
+
+Counts total valid students
+
+Counts total failed students
+
+Prints final summary
+## sample test case output
+
+enter no.of student marks:3
+
+enter marks of student in subject 1:23
+
+enter marks of student in subject 2:34
+
+enter marks of student in subject 3:45
+
+Enter your registration number last digit: 4
+
+marks after updation: [22, 33, 44]
+
+22 ->fail
+
+33 ->fail
+
+44 ->average
+
+total valid students are : 3
+
+total fail students are: 2
+<img width="1807" height="1007" alt="image" src="https://github.com/user-attachments/assets/22bccb24-e74b-4746-b638-4da4197556a5" />
+
+
   
