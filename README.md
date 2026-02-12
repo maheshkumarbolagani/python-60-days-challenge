@@ -141,5 +141,72 @@ total valid students are : 3
 total fail students are: 2
 <img width="1807" height="1007" alt="image" src="https://github.com/user-attachments/assets/22bccb24-e74b-4746-b638-4da4197556a5" />
 
+# Student Data Filter Program
+## Problem Statement
+
+This program processes a mixed list of numbers and strings.
+It separates them into two different lists using a for loop.
+It also applies one personalized logic rule.
+## Base Logic
+
+- If element is number → add to numberList
+
+- If element is string → add to stringList
+
+- Ignore empty strings ("")
+
+- Count total numbers
+
+- Count total strings
+
+## Personalization Used
+
+Option B – Name Length Logic
+
+My Name: Mahesh
+Name Length: 6
+
+If name length is even →
+Remove the first element from both lists
+
+If name length is odd →
+Remove the last element from both lists
+
+Since my name length is even,
+the first element is removed from both lists.
+
+## Output Format
+
+- Display final Number List
+
+- Display final String List
+
+- Display Total Numbers
+
+- Display Total Strings
+
+## Concepts Used
+
+- List
+
+- For loop
+
+- Conditional statements
+
+- String handling
+
+## Rules Followed
+
+- No dictionary
+
+- No set
+
+- No filter() or map()
+
+- No list comprehension
+
+- No hard-coded output
+<img width="1864" height="1138" alt="image" src="https://github.com/user-attachments/assets/c60cf7a8-c550-41c8-9ced-608412b53eca" />
+
 
   
